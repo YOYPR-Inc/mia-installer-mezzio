@@ -1,17 +1,17 @@
 {
-    "name": "agencycoda/mia-installer-mezzio",
+    "name": "yoypr/mia-installer-mezzio",
     "description": "The library for Mezzio",
     "version": "0.0.18",
     "minimum-stability": "stable",
     "license": "MIT",
     "authors": [{
-        "name": "Matias Camiletti",
-        "homepage": "https://agencycoda.com"
+        "name": "Alejandro Rodriguez",
+        "homepage": "https://yoypr.com"
     }],
     "require": {
         "php": ">=7.3",
-        "agencycoda/mia-core-mezzio": "dev-main",
-        "agencycoda/mia-eloquent-mezzio": "dev-main",
+        "yoypr/mia-core-mezzio": "dev-main",
+        "yoypr/mia-eloquent-mezzio": "dev-main",
         "laminas/laminas-code": "^3.5"
     },
     "autoload": {
@@ -29,15 +29,15 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/agencycoda/mia-core-mezzio.git"
+            "url": "https://github.com/YOYPR-Inc/mia-core-mezzio.git"
         },
         {
             "type": "git",
-            "url": "https://github.com/agencycoda/mia-eloquent-mezzio.git"
+            "url": "https://github.com/YOYPR-Inc/mia-eloquent-mezzio.git"
         },
         {
             "type": "git",
-            "url": "https://github.com/agencycoda/mia-auth-mezzio.git"
+            "url": "https://github.com/YOYPR-Inc/mia-auth-mezzio.git"
         }
     ]
 }
